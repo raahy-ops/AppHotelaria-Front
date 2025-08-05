@@ -18,5 +18,8 @@
     "react"
   ],
   "author": "Rayssa Bispo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
 }

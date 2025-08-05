@@ -33,12 +33,6 @@ export default function LoginForm() {
     button.textContent = "Entrar"; 
     formulario.appendChild(button);
 
-
-
-
-
-
-
     return formulario;
 }
 
