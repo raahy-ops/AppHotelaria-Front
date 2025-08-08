@@ -4,8 +4,9 @@
 export default function LoginForm() {
    
    
-    const formulario = document.createElement
-    ('form');
+    const formulario = document.createElement('form');
+    formulario.className = 'd-flex flex-column';
+
 
 
      /* Criação de input email */
@@ -31,6 +32,7 @@ export default function LoginForm() {
     ('button');
     button.type = 'submit';
     button.textContent = "Entrar"; 
+    button.className = 'btn btn-outline-primary';
     formulario.appendChild(button);
 
     return formulario;
