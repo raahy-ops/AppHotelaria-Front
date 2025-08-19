@@ -17,3 +17,26 @@
 }
 
 
+input {
+    border-style: solid;
+    border-color: rgb(148, 148, 150);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+input:focus{
+     
+    outline: none;
+    border: 2px solid rgb(127, 124, 167);
+}
+
+.btn-outline-primary:hover {
+    background-color: #4a503d;
+    border-color: #4a503d;
+
+}
+
+.btn-outline-primary{
+    border-color: #4a503d;
+    color: #4e4c43;
+}
